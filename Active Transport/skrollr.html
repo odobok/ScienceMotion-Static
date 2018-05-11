@@ -1,0 +1,29 @@
+<div id="intro" data-0="top:25%" data-300="top:-100%;">
+  <div class="scroll">
+    <p>scroll</p>
+  </div>
+</div>
+
+<div id="FACE">
+<div id="topHead"><img src="img1.png" data-0="top:-220px;" data-500="top:30px;"></div>
+<div id="leftBrow" ><img src="img2.png" data-200="top:-200px;" data-700="top:155px;"></div>
+<div id="rightBrow"><img src="img3.png" data-400="top:-200px;" data-900="top:155px;"></div>
+<div id="nose"><img src="img4.png" data-600="top:-200px;" data-1100="top:280px;"></div>
+<div id="nose"><img src="img5.png" data-600="top:-200px;" data-1100="top:280px;"></div>
+
+</div>
+  <div id="progress" data-0="height:0%;background:hsl(200, 100%, 50%);" data-end="height:100%;background:hsl(920, 100%, 50%);"></div>
+<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+<script type="text/javascript" src="skrollr.js"></script>
+
+<script type="text/javascript">
+var s = skrollr.init({
+  edgeStrategy: 'set',
+  easing: {
+    WTF: Math.random,
+    inverted: function(p) {
+      return 1-p;
+    }
+  }
+});
+</script>
