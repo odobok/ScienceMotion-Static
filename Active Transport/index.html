@@ -18,7 +18,7 @@
   <link rel='icon' type='image/png' , sizes='32x32' , href='../images/favicons/favicon-32x32.png'>
   <link rel='icon' type='image/png' , sizes='16x16' , href='../images/favicons/favicon-16x16.png'>
 
-  <link href='http://fonts.googleapis.com/css?family=Nova+Round' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Nova+Round' rel='stylesheet' type='text/css'> -->
 
   <meta name="csrf-param" content="authenticity_token" />
   <meta name="csrf-token" content="wrwJ0ZO3Kc0odDcqVNzVY0IV9g8W3h5JYdo/Yyje0CaFvbdbKFAy+1CXw7esl0jfNlp3+gtiSKz70cDNQ+pswA==" />
@@ -27,14 +27,18 @@
 
   <!-- Custom CSS -->
 
-  <link href="lesson_template.css" rel="stylesheet">
+  <!-- <link href="lesson_template.css" rel="stylesheet"> -->
   <link href="style.css" rel="stylesheet">
   <link href='active_transport.css' rel='stylesheet'>
 
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-d0e8ff63da72a0c5ea15ebc045a7f9d2979d211a12e596a5ed5f5b1534e78919.png" />
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
+  <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700" rel="stylesheet" type="text/css"> -->
   <script src="navigation.js"></script>
+
+  <script type="text/javascript" src="skrollr.js"></script>
+
+
 
 </head>
 
@@ -50,7 +54,7 @@
       <div class="style_prevu_kit" style="background-color:#93a6a8;"></div>
 
 
-      <div style=" padding:5px; color:#b5e6e3; font-weight:300; font-size:30px; font-family:'Roboto';padding-top:20px;"><font style="font-weight:400;"></font>
+      <div style="padding:5px; color:#b5e6e3; font-weight:300; font-size:30px; font-family:'Roboto';padding-top:20px;"><font style="font-weight:400;"></font>
       </div>
       <a href="http://www.wifeo.com/code" style="text-decoration:none;" target="_blank">
         <div style="  color:#b5e6e3; font-weight:300; font-size:20px; font-family:'Roboto';"></div>
@@ -71,34 +75,37 @@
           <a href="navigation.html">All lessons</a>
         </li>
       </ul>
-
     </div>
     <!-- /.container -->
-<!--
-  </nav>
-  <div class="style_prevu_kit" style="background-color:#cb2025;">
-    <a class="active" href="index.html"><img id="zoomimg" src="back.png" alt="back"></a></div>
 
-  <div class="style_prevu_kit" style="background-color:#cb2025;">
-    <a style="float:right" class="active" href="index.html"><img id="zoomimg2" src="forward.png" alt="back"></a></div>
-
-  </ul>
   </nav>
--->
+  <!-- <div class="style_prevu_kit" style="background-color:#cb2025;"> -->
+    <!-- <a class="active" href="index.html"><img id="zoomimg" src="back.png" alt="back"></a> -->
+  <!-- </div> -->
+
+  <!-- <div class="style_prevu_kit" style="background-color:#cb2025;"> -->
+    <!-- <a style="float:right" class="active" href="index.html"><img id="zoomimg2" src="forward.png" alt="back"></a> -->
+  <!-- </div> -->
+
+
+
+<div class='container'>
+
 <h1 style="color:#0ff004;">Active Transport</h1>
   <div>
     <p>Active transport is the movement of dissolved molecules into or out of a cell through the cell membrane, from a region of lower concentration to a region of higher concentration. </p>
     <p>Scroll to see how particles move against the concentration gradient. </p>
   </div>
 
-<div class='animation'>
+<div data-500="top:100%;" data-1000='top: 0%;' data-2000="display: block;" data-3000="top:-100%;display:none;" class='animation fixed-block'>
   <img src="img1.png">
+</div>
+<div>
   <img src="img2.png">
   <img src="img3.png">
   <img src="img4.png">
   <img src="img5.png">
 </div>
-
 <div class="narrative">
 
       <p id='text_1'> Sometimes molecules need to move from low to high concentration. Or against the concentration gradient </p>
@@ -109,7 +116,7 @@
 
       <p id='text_4'> With the energy and the channel that the molecules travel through, antiporter, the molecules arrive at the higher concentration!</p>
  </div>
-
+</div>
 
   <section id="text">
   </section>
@@ -117,5 +124,12 @@
 
 
 </body>
+
+
+  <script type="text/javascript">
+  var s = skrollr.init();
+  </script>
+
+
 
 </html>
