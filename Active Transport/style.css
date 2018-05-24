@@ -794,7 +794,7 @@
 			text-transform: none !important;
 		}
 
-		body:before {
+		/* body:before {
 			-moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
 			-webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
 			-o-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
@@ -805,7 +805,7 @@
 			-o-transform-origin: 50% 50%;
 			-ms-transform-origin: 50% 50%;
 			transform-origin: 50% 50%;
-			color: #ececec;
+			color: yellow;
 			content: '\f1ce';
 			cursor: default;
 			display: block;
@@ -820,7 +820,7 @@
 			top: 50%;
 			width: 2em;
 			z-index: -1;
-		}
+		} */
 
 		body:after {
 			-moz-animation: overlay-hide 1.5s ease-in forwards !important;

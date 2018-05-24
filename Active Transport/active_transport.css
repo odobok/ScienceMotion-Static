@@ -1,3 +1,31 @@
 .fixed-block {
   position: fixed;
 }
+
+.container {
+  width: 90%;
+  }
+
+.left-side {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.narrative {
+  float: right;
+  width: 40%;
+  margin-top: 6px;
+}
+
+#text-intro {
+  font-weight: bold;
+}
+
+.instructions {
+  font-style: italic;
+  font-size: medium;
+}
+.summary {
+  width: 100%;
+}
