@@ -54,6 +54,7 @@ p {
 
 /*Images */
 #base {
-  padding-left: 0px;
+
+  padding-left: -10px;
   margin-left: 0px;
 }
