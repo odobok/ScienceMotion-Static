@@ -16,12 +16,16 @@
   margin-top: 6px;
 }
 
-.narrative {
+.right-side {
   float: right;
   width: 40%;
   margin-top: 6px;
 }
 
+.summary {
+  width: auto;
+  
+}
 
 /* Typography */
 
@@ -40,6 +44,7 @@ p {
   font-size: medium;
   text-align: center;
 }
+
 .summary {
   width: 90%;
   text-align: center;
