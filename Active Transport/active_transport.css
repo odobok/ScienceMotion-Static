@@ -12,9 +12,8 @@
 
 .left-side {
   float: left;
-  width: 50%;
+  width: 40%;
   margin-top: 6px;
-  height: 3000px;
 }
 
 .right-side {
@@ -23,16 +22,16 @@
   margin-top: 6px;
 }
 
-.summary {
-  width: auto;
-
-}
 
 /* Typography */
 
 p {
   padding: 5px;
   margin: 2px;
+}
+
+.right-side p {
+  padding-bottom: 300px;
 }
 
 #text-intro {
@@ -44,24 +43,26 @@ p {
   font-style: italic;
   font-size: medium;
   text-align: center;
+  padding-bottom: 500px;
 }
 
-.summary {
-  width: 90%;
+.summary,
+.further-reading {
   text-align: center;
 }
 
 /*Images */
-#base {
 
+#base {
   padding-left: -10px;
   margin-left: 0px;
 }
 
+
 /*CSS Grid */
 .container {
   display: grid;
-  grid-template-areas:
-      "left-side" "right-side"
-      "summary"
+}
+.right-side {
+  grid-column-start: 2;
 }

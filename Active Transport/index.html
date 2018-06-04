@@ -26,11 +26,12 @@
   <link href="bootstrap.css" rel="stylesheet">
 
   <!-- Custom CSS -->
+  <!-- CSS for table -->
 
   <!-- <link href="lesson_template.css" rel="stylesheet"> -->
   <link href="style.css" rel="stylesheet">
   <link href='active_transport.css' rel='stylesheet'>
-
+  <link href="table-style.css" rel="stylesheet">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-d0e8ff63da72a0c5ea15ebc045a7f9d2979d211a12e596a5ed5f5b1534e78919.png" />
   <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700" rel="stylesheet" type="text/css"> -->
@@ -92,30 +93,34 @@
   <p id="text-intro">Active transport is the movement of dissolved molecules into or out of a cell through the cell membrane, from a region of lower concentration to a region of higher concentration. </p>
   <p class="instructions">Scroll to see how particles move against the concentration gradient.</p>
 
-  <div class='container'>
+  <div class="right-side">
+    <p id='text_1'>Sometimes molecules need to move from low to high concentration. Or against the concentration gradient </p>
+    <p id='text_2'>In order to get those molecules to the higher concentration, you need energy. </p>
+    <p id='text_3'> Carrier proteins take those molecules and use energy released during respiration to transport the molecules across the membrane.</p>
+    <p id='text_4'> With the energy and the channel that the molecules travel through, antiporter, the molecules arrive at the higher concentration!</p>
+  </div>
 
     <div class="left-side">
       <div data-100="top: 100%;" data-200='top: 5%;' data-3000="display: block;" data-4000="top:-100%;display:none;" class='animation fixed-block left-side'>
         <img src="img1.png">
       </div>
+
       <div data-200="top: 100%;" data-500='top: 0.7%;' data-3500="display: block;" data-4000="top:-100%;display:none;" class='animation fixed-block'>
         <img src="img2.png">
       </div>
+
       <div data-300="top: 100%;" data-600='top: 10%;' data-3600="display: block;" data-4100="top:-100%;display:none;" class='animation fixed-block'>
         <img src="img3.png">
       </div>
+
       <div>
         <img src="img4.png">
         <img src="img5.png">
       </div>
     </div>
 
-    <div class="right-side">
-      <p id='text_1'>Sometimes molecules need to move from low to high concentration. Or against the concentration gradient </p>
-      <p id='text_2'>In order to get those molecules to the higher concentration, you need energy. </p>
-      <p id='text_3'> Carrier proteins take those molecules and use energy released during respiration to transport the molecules across the membrane.</p>
-      <p id='text_4'> With the energy and the channel that the molecules travel through, antiporter, the molecules arrive at the higher concentration!</p>
-    </div>
+
+<div class="container">
 
     <div class="summary">
       <h3>Summary</h3>
@@ -125,10 +130,46 @@
 
     <div class="further-reading">
       <h3>For Further Reading</h3>
-      <p>[html table here]</p>
+      <table>
+        <colgroup>
+          <col style="font-weight:bold">
+          <col >
+          <col >
+          <col style="color: white">
+        </colgroup>
+  <tr>
+    <th></th>
+    <th>Diffusion</th>
+    <th>Osmosis</th>
+    <th  class="active">Active Transport</th>
+  </tr>
+  <tr>
+    <td class="left-column">Down a concentration gradient</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td class="active">No</td>
+  </tr>
+  <tr>
+    <td class="left-column">Against a concentration gradient </td>
+    <td>No</td>
+    <td>No</td>
+    <td class="active">Yes</td>
+  </tr>
+  <tr>
+    <td class="left-column">Energy needed </td>
+    <td>No</td>
+    <td>No</td>
+    <td class="active">Yes</td>
+  </tr>
+  <tr>
+    <td class="left-column">Substance moved  </td>
+    <td>Dissolved solutes</td>
+    <td>Water</td>
+    <td class="active">Dissolved solutes</td>
+  </tr>
+</table>
     </div>
-
-  </div>
+</div>
 
 
 
