@@ -22,10 +22,17 @@
   margin-top: 6px;
 }
 
+
+/* Typography */
+
+p {
+  padding: 5px;
+  margin: 2px;
+}
+
 #text-intro {
   font-weight: bold;
   text-align: center;
-
 }
 
 .instructions {
@@ -40,6 +47,7 @@
   bottom: 0px;
 }
 
+/*Images */
 #base {
   padding-left: 0px;
   margin-left: 0px;
