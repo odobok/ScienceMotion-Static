@@ -49,8 +49,6 @@ p {
 .summary {
   width: 90%;
   text-align: center;
-  position: fixed;
-  bottom: 0px;
 }
 
 /*Images */
@@ -61,3 +59,9 @@ p {
 }
 
 /*CSS Grid */
+.container {
+  display: grid;
+  grid-template-areas:
+      "left-side" "right-side"
+      "summary"
+}
