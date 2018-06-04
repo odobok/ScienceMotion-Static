@@ -34,8 +34,13 @@
   text-align: center;
 }
 .summary {
-  width: 100%;
+  width: 90%;
   text-align: center;
   position: fixed;
   bottom: 0px;
+}
+
+#base {
+  padding-left: 0px;
+  margin-left: 0px;
 }
